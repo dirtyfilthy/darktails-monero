@@ -43,7 +43,9 @@ GridLayout {
     property alias daemonAddrLabelText: daemonAddr.labelText
     property alias daemonPortLabelText: daemonPort.labelText
 
-    property string initialAddress: ""
+
+    // DARKTAILS: set default remote node 
+    property string initialAddress: "wnslzby43a5a7qfywoocm42ksvfhitecosw7tkoc3w3od5qkg5awrcad.onion:18081"
     property var initialHostPort: initialAddress.match(/^(.*?)(?:\:?(\d*))$/)
 
     // TODO: LEGACY; remove these placeHolder variables when

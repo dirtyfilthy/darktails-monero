@@ -1,3 +1,4 @@
+.env.built
 *.user
 *.user.*
 translations/*.qm

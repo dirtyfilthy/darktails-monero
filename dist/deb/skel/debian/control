@@ -1,0 +1,16 @@
+Package: monero-gui
+Version: 0:0.17.1.7.0-1
+Architecture: all
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Installed-Size: 368134
+Depends: fuse
+Section: misc
+Priority: optional
+Homepage: https://github.com/Whonix/monero-gui
+Description: Monero - A Reasonably Private Digital Currency
+ Monero is cash for a connected world. It’s fast, private, and secure.
+ With Monero, you are your own bank. You can spend safely, knowing that others
+ cannot see your balances or track your activity.
+ .
+ This package contains the Monero graphical user interface (GUI) and command
+ line interface (CLI) programs.
