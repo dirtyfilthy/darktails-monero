@@ -3,7 +3,8 @@
 
 [Desktop Entry]
 Comment=Start Monero wallet
-Exec=monero-wallet-gui
+Exec=/usr/local/bin/monero-wallet-gui
+Category=Internet
 Type=Application
 GenericName[en_US]=Monero (XMR) Wallet
 GenericName=Monero (XMR) Wallet
